@@ -1,0 +1,59 @@
+# <type>(<scope>): <subject>
+# 예: feat($login): add validation for email format
+#
+# - type: 변경의 목적 (기본: chore)
+#   [feat, fix, docs, style, refactor, test, chore 중 선택]
+# - scope: 변경된 위치나 기능 영역 (기본: common)
+#   예: $login, $browser, $rootScope 등
+# - subject: 한 줄로 요약된 변경 사항 (명령형으로 작성, 소문자로 시작, 마침표 없이)
+#   기본: "update common functionality"
+#
+# 허용되는 <type> (변경 목적):
+# - feat: 새로운 기능 추가 (예: feat: add login feature)
+# - fix: 버그 수정 (예: fix: resolve crash issue on login page)
+# - docs: 문서 작업 (예: docs: update API documentation for login endpoint)
+# - style: 코드 스타일 변경 (예: style: format code with prettier)
+#   (동작에 영향 없는 포맷팅, 세미콜론 추가 등)
+# - refactor: 기능 변경 없이 코드 구조 개선 (예: refactor: simplify login logic)
+# - test: 테스트 코드 추가/수정 (예: test: add unit test for login service)
+# - chore: 유지보수 작업 (예: chore: update npm dependencies)
+#
+# 허용되는 <scope> (변경된 위치나 기능 영역):
+# - $location: 위치 관련 코드 수정
+# - $browser: 브라우저 관련 코드 수정
+# - $rootScope: Angular의 루트 스코프 수정
+# - ngClick: Angular의 ngClick 디렉티브 수정
+# - ngView: Angular의 뷰 관련 코드 수정
+#
+docs(common): update commit message
+
+# Body (커밋 메시지 본문)
+#
+# 이 커밋의 목적을 명확하게 설명합니다.
+# - 왜 이 변경이 필요했는가?
+# - 이전 동작과 현재 동작의 차이점은 무엇인가?
+#
+# 예시:
+# Before: 로그인 폼에서 유효하지 않은 이메일이 제출되었습니다.
+# After: 이메일 형식이 유효하지 않으면 제출이 차단됩니다.
+#
+
+# Footer (바닥글)
+#
+# 연결된 이슈를 기록합니다:
+# - 형식: Closes #이슈번호 (예: Closes #234)
+
+# Breaking Changes (중대한 변경 사항)
+#
+# Breaking changes가 있을 경우, 아래에 상세히 설명합니다:
+# BREAKING CHANGE:
+# - 변경된 부분과 기존 코드의 차이점
+# - 마이그레이션 방법 (예제 코드 포함)
+BREAKING CHANGE: None
+
+# ====================================
+# 규칙 요약:
+# 1. 모든 줄은 100자를 넘지 않습니다.
+# 2. Header, Body, Footer는 빈 줄로 구분됩니다.
+# 3. 이 주석(#)은 Git이 인식하며 커밋 메시지에 포함되지 않습니다.
+
