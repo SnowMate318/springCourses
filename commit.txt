@@ -25,9 +25,11 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-docs(common): update commit message
+docs(common): 스프링 핵심원리 기본편 프로젝트
 
 # Body (커밋 메시지 본문)
+스프링 핵심원리 기본편 프로젝트를 생성하였습니다.
+
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
 # - 왜 이 변경이 필요했는가?
