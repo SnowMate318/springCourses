@@ -25,11 +25,10 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-docs(refactor): 인터페이스 단일 의존
+docs(refactor): AppConfig 메소드
 
 # Body (커밋 메시지 본문)
-클래스 내 다른 클래스를 지정하는 방법에서 AppConfig를 통해 인터페이스 레벨에서 클래스를 지정하는 방법으로 바꿈
-이렇게 하면 정책을 변경하더라도 클라이언트 코드를 직접 수정하는 경우가 없어짐
+어떤 할인정책을 쓸건지 어떤 메모리를 쓸건지 보기좋게 하기위해 AppConfig 메소드 분리 시도
 
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
