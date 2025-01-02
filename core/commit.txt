@@ -25,10 +25,10 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-docs(개념_정리_IoC_DI_컨테이너.md): 용어
+docs(스프링_개념.md, AppConpig, MemberApp, OrderApp): 스프링 적용 및 스프링 개념
 
 # Body (커밋 메시지 본문)
-적용한 개념을 지칭하는 용어들에 대해 정리하는 내용을 추가했습니다.
+기존 AppConpig를 스프링 컨테이너로 변경 및 적용된 스프링 개념을 정리하엿습니다.
 
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
