@@ -25,10 +25,10 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-docs(스프링_개념.md, AppConpig, MemberApp, OrderApp): 스프링 적용 및 스프링 개념
+docs(BeanFactory와_ApplicationContext.md): 빈 컨테이너 종류 및 기능
 
 # Body (커밋 메시지 본문)
-기존 AppConpig를 스프링 컨테이너로 변경 및 적용된 스프링 개념을 정리하엿습니다.
+빈 컨테이너에 대한 내용을 알아보았으며, 기능을 정리하였습니다.
 
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
