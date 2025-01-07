@@ -12,7 +12,7 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration // 싱글톤을 위한것?
 // 의존관계 주입 -> dependancy injection
 public class AppConfig { // 실제 동작에 필요한 구현객체
 

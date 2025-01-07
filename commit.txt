@@ -25,11 +25,10 @@
 # - ngClick: Angular의 ngClick 디렉티브 수정
 # - ngView: Angular의 뷰 관련 코드 수정
 #
-docs(BeanFactory와_ApplicationContext.md): 빈 컨테이너 종류 및 기능
+docs(싱글톤과_스트링.md, test.java.hello.core.singleton): 싱글톤 개념 정리 및
 
 # Body (커밋 메시지 본문)
-빈 컨테이너에 대한 내용을 알아보았으며, 기능을 정리하였습니다.
-
+싱글톤 패턴을 공부하고, @Configuration 애노테이션의 역할을 공부하고, 테스트했습니다.
 #
 # 이 커밋의 목적을 명확하게 설명합니다.
 # - 왜 이 변경이 필요했는가?

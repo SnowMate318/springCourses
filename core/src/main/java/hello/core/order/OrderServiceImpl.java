@@ -31,6 +31,11 @@ public class OrderServiceImpl implements OrderService{
     * 그런데 이렇게하면 추가작업 필요(현재는 오류)
     *
     * */
+
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
+
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
         Member member = memberRepository.findById(memberId);
